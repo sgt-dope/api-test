@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 
 comnd = os.popen('gp url')
@@ -11,3 +12,4 @@ for i in range(2):
         url="https://fetch-url-ff.herokuapp.com/add",
         params=data
     )
+    time.sleep(2)
