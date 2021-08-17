@@ -10,5 +10,3 @@ url_send = requests.post(
     url="https://fetch-url-ff.herokuapp.com/add",
     params=data
 )
-
-print(url_send.status_code)
